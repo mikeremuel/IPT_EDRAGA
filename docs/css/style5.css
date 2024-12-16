@@ -1,0 +1,38 @@
+:root {
+    --background-light: #ffffff;
+    --background-dark: #2c2c2c;
+    --text-light: #000000;
+    --text-dark: #ffffff;
+}
+
+body {
+    background-color: var(--background-light);
+    color: var(--text-light);
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    margin: 5px;
+}

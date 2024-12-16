@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    text-align: center;
+    line-height: 50px;
+}
+
+.search-bar {
+    flex-grow: 2;
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.left-info {
+    width: 30%;
+    background-color: #e9e9e9;
+    padding: 20px;
+}
+
+.profile-info {
+    width: 70%;
+    padding: 20px;
+}
+
+.skills, .feedback {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    text-align: center;
+    line-height: 50px;
+}
+
+.search-bar {
+    flex-grow: 2;
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.left-info {
+    width: 30%;
+    background-color: #e9e9e9;
+    padding: 20px;
+}
+
+.profile-info {
+    width: 70%;
+    padding: 20px;
+}
+
+.skills, .feedback {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
